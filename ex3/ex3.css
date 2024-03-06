@@ -1,2 +1,29 @@
 /* 🦊 Créez vos styles ici */
 /* Colors: #62306d, #f7ec7d  */
+body {
+    background-color: #62306d;
+}
+
+div {
+    background-color: #f7ec7d;
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 0px 50px 50px;
+    position: relative;
+}
+
+.left {
+    left: 50px;
+    top: 150px;
+}
+
+.center {
+    left: 150px;
+    bottom: 50px;
+    transform: rotate(180deg);
+}
+
+.right {
+    left: 250px;
+    bottom: 50px;
+}
